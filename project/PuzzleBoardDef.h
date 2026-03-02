@@ -8,13 +8,13 @@ namespace PIN{
             DIR1 = 5,
             DIR2 = 6;
     } 
-    namespace Capteur{
+    namespace Actionneur/Capteur{
         constexpr int 
             Capteur1 = 9,
-            Capteur2 = 10;
+            Capteur2 = 10,
+            Servo1 = 11,
+            Pompe1 = 12,
+            Pompe2 = 13;
     }
-    namespace Servo{
-        constexpr int 
-            Servo1 = 11;
-    }
+
 }
