@@ -6,20 +6,25 @@ title: Objectifs du projet
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+Dans le cadre de notre 3e année, nous avons réalisé le projet Puzzle Bot : Une machine résolvant des puzzles de manière autonome.
 
 ## Contexte du Projet
 
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+Dans la droite lignée du projet de l'année précédente : Machine That Draws (Une machine permettant de reproduire une image sur une feuille de papier). Puzzle Bot s'inscrit dans une démarche d'apprentissage et de perfectionnement des acquis que cela soit au niveau technique ou de la gestion de projet en mobilisant des effectifs plus grands
 
 ## Objectifs du Projet
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+Concevoir une machine capable de résoudre des puzzles peut importe leur taille, la position de leur pièces ainsi que leur orientation.
 
 # Existant
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
+A compléter
 
 # Cahier des Charges
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+Le projet Puzzle Bot doit être capable de :
+* Se déplacer
+* Pouvoir déplacer des pièces
+* Repérer les pièces sur le plateau
+* Prendre en compte l'orientation des pièces et les réorienter si nécessaire
+* D'effectuer la reconnaissance des pièces via une caméra
