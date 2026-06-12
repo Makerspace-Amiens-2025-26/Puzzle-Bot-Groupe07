@@ -34,3 +34,16 @@ Cette section du programme permet la gestion des actionneurs de la machine (Serv
 
 ![Algorigramme saisie et dépot pièce machine](images/Algo_Actionneurs_PuzzleBot.png)
 *Algorigramme pour la saisie et le dépôt des pièces sur le plateau*
+
+# Traitement d'image et détection de marker avec OpenCV (programmation python)
+
+## Plan
+
+## prendre des photos
+
+## Calcul de la matrice de distortion de la camera
+
+## Détection de Marker AruCo (Programme principale)
+
+![Algorigramme Détection de Marker](images/Algo_Aruco_detect)
+*Algorigramme du programme pour la detection de marker*
