@@ -37,13 +37,16 @@ Cette section du programme permet la gestion des actionneurs de la machine (Serv
 
 # Traitement d'image et détection de marker avec OpenCV (programmation python)
 
-## Plan
-
-## prendre des photos
-
 ## Calcul de la matrice de distortion de la camera
 
-## Détection de Marker AruCo (Programme principale)
+Avant de pouvoir detecter les marker, il faut calibrer la caméra. Plusieur étapes sont nécessaire pour calculer la matrice de distortion afin de calibrer la caméra.
 
+Il faut tout d'abord prendre plusieurs photos d'un damier avec la caméra (10 à 15 photos). les photos doivent être prises sous plusieurs angles différents.
+Une fois les photos prises, il faut lancer un programme qui calcul, à partir des images prises, la caméra de distortion.
+
+## Détection de Marker AruCo (Programme principale)
+//Tvec et Rvec (rodrigues)
+
+Ci-dessous un algorigramme simplifiant la compréhension du fonctionnement du programme
 ![Algorigramme Détection de Marker](images/Algo_Aruco_detect.png)
 *Algorigramme du programme pour la detection de marker*
