@@ -45,5 +45,5 @@ Cette section du programme permet la gestion des actionneurs de la machine (Serv
 
 ## Détection de Marker AruCo (Programme principale)
 
-![Algorigramme Détection de Marker](images/Algo_Aruco_detect)
+![Algorigramme Détection de Marker](images/Algo_Aruco_detect.png)
 *Algorigramme du programme pour la detection de marker*
