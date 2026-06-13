@@ -9,7 +9,7 @@ permalink: /
 
 Bienvenue dans la documentation du projet puzzle bot du groupe 7. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
 
-[Notre projet sur Onshape](https://cad.onshape.com/documents/66ea5fd62d77254e0c6a39c1/w/c153dfe1b4d7dc7fbbaa91bb/e/15d1714add695a3acd61b4fc?renderMode=0&uiState=69fc5692e66a2c75bbaba9ff){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Notre projet sur Onshape](https://cad.onshape.com/documents/66ea5fd62d77254e0c6a39c1/w/c153dfe1b4d7dc7fbbaa91bb/e/18e017ca614e2eb985622d94){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Notre repo GitHub](https://github.com/Makerspace-Amiens-2025-26/Puzzle-Bot-Groupe07){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 <iframe height="600" width="100%" src="https://modelembedder.net/embed?did=2860ed3d58f1b518e6857770&wvm=v&wvmid=6280fca954e7770df59e5a2f&eid=0cab16137cd459ee83ebe56e&elementType=ASSEMBLY" frameborder="0"></iframe>
