@@ -16,8 +16,6 @@ Bienvenue dans la documentation du projet puzzle bot du groupe 7. Ce site a pour
 
 ## À propos du Projet
 
-Décrivez ici en quelques lignes l'objectif et l'aperçu général de votre projet. Quel est son but ? À qui est-il destiné ? Quels problèmes cherche-t-il à résoudre ?
-
 Ce projet à pour objectif la création d'une machine capable de résoudre un puzzle. Plusieurs thématiques sont abordées dans la réalisation de ce projet: la conception 3D de la machine; le choix du matériel électronique; et la programmation.
 Ci-après les étapes du cahier des charges:
 
