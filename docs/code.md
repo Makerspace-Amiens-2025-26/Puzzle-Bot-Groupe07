@@ -54,7 +54,10 @@ Il faut tout d'abord prendre plusieurs photos d'un damier avec la caméra (10 à
 Une fois les photos prises, il faut lancer un programme qui calcul, à partir des images prises, la caméra de distortion.
 
 ## Détection de Marker AruCo (Programme principale)
-//Tvec et Rvec (rodrigues)
+
+Il est possible de récupérer les coordonnées ainsi que l'angle de rotation des marker par rapport au marker 5. Pour ce faire, il faut utiliser les variables Tvec et Rvec de chaques marker.
+La variable Tvec (translation vector) contient les coordonnées des marker par rapport à un autre. 
+Concernant Rvec (rotation vector), elle contient l'angle de rotation d'un marker par rapport à un autre. Une fois les coordonnées en x et y ainsi que l'angle de rotation des marker obtenus, ces données sont ensuite ajoutées à une liste (sous cette forme: liste[x,y,angle marker 1, x,y,angle marker2, x,y,angle marker3, x,y,angle marker4]). La liste est ensuite envoyer sur un port com vers la carte Arduino.
 
 Ci-dessous un algorigramme simplifiant la compréhension du fonctionnement du programme
 ![Algorigramme Détection de Marker](images/Algo_Aruco_detect.png)
