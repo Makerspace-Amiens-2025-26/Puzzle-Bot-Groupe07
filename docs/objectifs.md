@@ -18,8 +18,9 @@ Concevoir une machine capable de résoudre des puzzles peut importe leur taille,
 
 # Existant
 
-A compléter
-
+Projet "Puzzle bot" par Marc Rober
+Projet "Puzzle machine" par Stuff Made Here
+ 
 # Cahier des Charges
 
 Le projet Puzzle Bot doit être capable de :

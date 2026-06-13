@@ -17,23 +17,26 @@ Le programme est divisé en 5 types de fichier :
 * Réception et traitement des données reçues par la caméra en utilisant Déplacement_Caméra.h et Lecture.h
 * Définition des pins via PuzzleBoardDef.h
 
+Plan du programme
 ![Plan du programme](images/PlanProgrammePuzzleBot.png)
-*Plan du programme*
+
 
 ## Déplacements
 
 La partie lié au mouvement de la base mobile, gérée par l'intermédiaire de motion.h, permet le placement de la machine dans l'espace lors de l'initialisation, de la récupération des pièces et de l'emboitement du puzzle
 
+Algorigramme pour le déplacement de la machine
 ![Algorigramme Déplacement machine](images/Algo_Deplacements_PuzzleBot.png)
-*Algorigramme pour le déplacement de la machine*
+
 
 
 ## Saisie et dépot des pièces de puzzle
 
 Cette section du programme permet la gestion des actionneurs de la machine (Servomoteurs et Pompe) afin de pouvoir saisir, déposer ainsi que tourner les pièces si nécessaire
 
+Algorigramme pour la saisie et le dépôt des pièces sur le plateau
 ![Algorigramme saisie et dépot pièce machine](images/Algo_Actionneurs_PuzzleBot.png)
-*Algorigramme pour la saisie et le dépôt des pièces sur le plateau*
+
 
 # Traitement d'image et détection de marker avec OpenCV (programmation python)
 
