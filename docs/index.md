@@ -25,8 +25,6 @@ Décrivez ici en quelques lignes l'objectif et l'aperçu général de votre proj
 
 ## Poster
 
-Ici vous publierez le poster de votre projet.
-
 ![Poster projet](images/poster.jpg)
 
 ## Vidéo

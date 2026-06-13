@@ -1,4 +1,4 @@
----
+"""---
 layout: default
 title: Etapes de fabrication
 nav_order: 6
@@ -25,3 +25,4 @@ Pour commencer, assurez-vous de bien comprendre chaque étape et de disposer de 
 ---
 
 Pour toute question ou aide supplémentaire, n'hésitez pas à contacter notre équipe.
+"""
