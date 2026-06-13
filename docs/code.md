@@ -51,12 +51,15 @@ Cette section du programme permet la gestion des actionneurs de la machine (Serv
 Avant de pouvoir detecter les marker, il faut calibrer la caméra. Plusieur étapes sont nécessaire pour calculer la matrice de distortion afin de calibrer la caméra.
 
 Il faut tout d'abord prendre plusieurs photos d'un damier avec la caméra (10 à 15 photos). les photos doivent être prises sous plusieurs angles différents.
-Une fois les photos prises, il faut lancer un programme qui calcul, à partir des images prises, la caméra de distortion.
+Une fois les photos prises, il faut lancer un programme qui calcul, à partir des images prises, la matrice de distortion. cette matrice permet d'
 
 ## Détection de Marker AruCo (Programme principale)
 
-Il est possible de récupérer les coordonnées ainsi que l'angle de rotation des marker par rapport au marker 5. Pour ce faire, il faut utiliser les variables Tvec et Rvec de chaques marker.
-La variable Tvec (translation vector) contient les coordonnées des marker par rapport à un autre. 
+Pour la partie vision du projet, le programme est réalisé en python avec plusieurs bibliothèque dont OpenCV avec la partie Aruco.
+L'idée derrière cette partie est de récupérer les coordonnées ainsi que l'angle des marker attachés aux pièces de puzzle à partir d'un marker de repère. Le marker 5 sera désigner comme point d'origine pour le repère
+
+La biblioyhèque Aruco d'OpenCV nous permet d'utiliser les variables Tvec et Rvec de chaques marker.
+La variable Tvec (translation vector) contient les coordonnées d'un marker par rapport à un autre. 
 Concernant Rvec (rotation vector), elle contient l'angle de rotation d'un marker par rapport à un autre. Une fois les coordonnées en x et y ainsi que l'angle de rotation des marker obtenus, ces données sont ensuite ajoutées à une liste (sous cette forme: liste[x,y,angle marker 1, x,y,angle marker2, x,y,angle marker3, x,y,angle marker4]). La liste est ensuite envoyer sur un port com vers la carte Arduino.
 
 Ci-dessous un algorigramme simplifiant la compréhension du fonctionnement du programme
