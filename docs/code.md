@@ -10,6 +10,8 @@ Programmation de la machine Puzzle Bot
 
 ## Plan du programme
 
+Cette partie de la machine a été réalisée via platformio auquel a été ajouté la bibliothèque Accelstepper (gestion des moteurs pas à pas)
+
 Le programme est divisé en 5 types de fichier : 
 * Programme principale (main.c) pour l'execution de toutes les instructions
 * Gestion des mouvements de la machine (zone de déplacement,zone de placement des pièces) via motion.h
@@ -17,15 +19,18 @@ Le programme est divisé en 5 types de fichier :
 * Réception et traitement des données reçues par la caméra en utilisant Déplacement_Caméra.h et Lecture.h
 * Définition des pins via PuzzleBoardDef.h
 
-Plan du programme
+**Plan du programme**
+
 ![Plan du programme](images/PlanProgrammePuzzleBot.png)
 
+(programme disponible dans le dossier project sur le GitHub)
 
 ## Déplacements
 
 La partie lié au mouvement de la base mobile, gérée par l'intermédiaire de motion.h, permet le placement de la machine dans l'espace lors de l'initialisation, de la récupération des pièces et de l'emboitement du puzzle
 
-Algorigramme pour le déplacement de la machine
+**Algorigramme pour le déplacement de la machine**
+
 ![Algorigramme Déplacement machine](images/Algo_Deplacements_PuzzleBot.png)
 
 
@@ -34,7 +39,8 @@ Algorigramme pour le déplacement de la machine
 
 Cette section du programme permet la gestion des actionneurs de la machine (Servomoteurs et Pompe) afin de pouvoir saisir, déposer ainsi que tourner les pièces si nécessaire
 
-Algorigramme pour la saisie et le dépôt des pièces sur le plateau
+**Algorigramme pour la saisie et le dépôt des pièces sur le plateau**
+
 ![Algorigramme saisie et dépot pièce machine](images/Algo_Actionneurs_PuzzleBot.png)
 
 
