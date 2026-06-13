@@ -1,4 +1,4 @@
----
+"""---
 layout: default
 title: Préparation des Matériaux
 parent: Etapes de fabrication
@@ -28,4 +28,4 @@ Cette section décrit la première étape du processus de fabrication : la prép
 
 ---
 
-Une fois cette étape terminée, passez à l'[Assemblage](/assemblage).
+Une fois cette étape terminée, passez à l'[Assemblage](/assemblage)."""
