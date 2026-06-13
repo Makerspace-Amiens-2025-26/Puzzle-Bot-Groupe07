@@ -18,7 +18,12 @@ Bienvenue dans la documentation du projet puzzle bot du groupe 7. Ce site a pour
 
 Décrivez ici en quelques lignes l'objectif et l'aperçu général de votre projet. Quel est son but ? À qui est-il destiné ? Quels problèmes cherche-t-il à résoudre ?
 
-Ce projet à pour objectif la création d'une machine capable de résoudre un puzzle.
+Ce projet à pour objectif la création d'une machine capable de résoudre un puzzle. Plusieurs thématiques sont abordées dans la réalisation de ce projet: la conception 3D de la machine; le choix du matériel électronique; et la programmation.
+Ci-après les étapes du cahier des charges:
+
+![Roadmap technique](images/Roadmap_technique.png)
+
+Le but pour la version final du robot est d'atteindre l'étape 4, avoir une machine qui résout un puzzle de pièces avec encoche possédant des markers (dans le meilleur des cas l'étape 5).
 
 ## Poster
 
