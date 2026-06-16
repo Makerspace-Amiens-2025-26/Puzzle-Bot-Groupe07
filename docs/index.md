@@ -38,6 +38,7 @@ Ici vous publierez la vidéo de votre projet.
 - Une conclusion
 - Si en stockage local : <50mo
 
-<video src="[images/intro_amiens.mp4](https://youtube.com/shorts/Xj575dPTvmQ?feature=share)" controls title="Title"  style="width: 100%;"></video>
+[LIEN VERS VIDEO](https://youtube.com/shorts/Xj575dPTvmQ?feature=share)
+
 
 ---
