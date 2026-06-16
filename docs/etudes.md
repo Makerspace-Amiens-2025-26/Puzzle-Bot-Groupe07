@@ -8,6 +8,8 @@ title: Études et choix techniques
 
 # Moteur pas à pas: 
 
+<img src="./images/MOT.PNG" widh="400" height="400">
+
 Dans le cadre du projet Puzzle Bot, l’objectif de mon travail était d’optimiser le fonctionnement du moteur pas-à-pas fourni afin d’obtenir :
 
 un déplacement plus fluide,
