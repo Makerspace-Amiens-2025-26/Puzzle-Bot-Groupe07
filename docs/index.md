@@ -25,7 +25,7 @@ Le but pour la version final du robot est d'atteindre l'étape 4: avoir une mach
 
 ## Poster
 
-![Poster projet](images/Poster)
+![Poster projet](images/Poster.png)
 
 ## Vidéo
 
