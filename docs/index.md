@@ -29,16 +29,10 @@ Le but pour la version final du robot est d'atteindre l'étape 4: avoir une mach
 
 ## Vidéo
 
-Ici vous publierez la vidéo de votre projet. 
-- 1min30 au format vertical
-- Présentation du projet 
-- Des explication du fonctionnement du projet
-- Des vues du projet / Prototype / Application etc... 
-- Des plans du fonctionnement (même basique ou des éléments séparés)
-- Une conclusion
-- Si en stockage local : <50mo
+Voici la vidéo ilustrant notre projet. 
 
-[LIEN VERS VIDEO](https://youtube.com/shorts/Xj575dPTvmQ?feature=share)
+![vidéo](docs/images/Projet_PUZZLE_BOT.mp4)
+![LIEN VERS VIDEO](https://youtube.com/shorts/Xj575dPTvmQ?feature=share)
 
 
 ---
