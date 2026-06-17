@@ -29,7 +29,7 @@ Sur cet axe on  trouve 5 pièces dont 3 possèdent une version en symétrie ou l
 
 ### Axe Y
 
-Pour changer du principe de déplacement de l'axe X, sur cet axe le moteur bouge avec le wagon principal. Il coulisse le long de la courroie qui, elle, est immobile.
+Pour changer du principe de déplacement de l'axe X, sur cet axe le moteur bouge avec le wagon principal. Il coulisse le long de la courroie qui, elle, est immobile. Ce fonctionnement a été inspiré des contraintes du projet "MachineThatDraws".
 
 Sur cet axe, on trouve 4 pièces dont 2 étant identiques à celles de l'axe X :
 * Wagon haut
@@ -54,7 +54,7 @@ On trouve 3 pièces pour cet axe dont 2 sont notamment utilisées pour maintenir
 
 ### Axe R
 
-Ce dernier axe est un axe de rotation de la ventouse de saisie des pièces de puzzle. Ce mouvement est comme pour le mouvement sur X effectué grâce à un servo-moteur.
+Ce dernier axe est un axe de rotation de la ventouse de saisie des pièces de puzzle. Ce mouvement est comme pour le mouvement sur Z effectué grâce à un servo-moteur.
 
 Seulement 2 pièces sont nécessaires à cette rotation :
 * Système de rotation
