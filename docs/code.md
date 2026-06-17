@@ -55,12 +55,23 @@ Une fois les photos prises, il faut lancer un programme qui calcul, à partir de
 
 ## Détection de Marker AruCo (Programme principale)
 
+### Concept et reflexion
+
 Pour la partie vision du projet, le programme est réalisé en python avec plusieurs bibliothèque dont OpenCV avec la partie Aruco.
-L'idée derrière cette partie est de récupérer les coordonnées ainsi que l'angle des marker attachés aux pièces de puzzle à partir d'un marker de repère. Le marker 5 sera désigner comme point d'origine pour le repère
+Au départ, le but était de récupérer la distance entre les marker. Le problème avec cette méthode est le fait que l'on ne récupère que le rayon où se situe la pièce, ce qui ne n'indique aucunement son emplacement exacte par rapport au point d'origine (le marker 5).
+Par la suite nous sommes partis sur un système de coordonnées. En effe, le programme récupère (grâce à la caméra) les coordonnées ainsi que l'angle des marker attachés aux pièces de puzzle à partir d'un marker de repère.
+
+Un autre problème rencontré lors de la conception fût avec le marker 5. Ce marker était cencé être placé sur la tête de la machine. Or cette partie étant trop haute, la caméra ne detecte plus le marker. La solution trouvé fut de placer le marker à l'opposé de la machine et de traité les calucul dans le programme. 
+
+### Fonctionnement
+
+Le programme commence par pendre une photo du plateau avec les pièces de puzzle. Un filtre noir et blanc est appliqué à la photo grâce à la bibliothèque OpenCV.
 
 La biblioyhèque Aruco d'OpenCV nous permet d'utiliser les variables Tvec et Rvec de chaques marker.
 La variable Tvec (translation vector) contient les coordonnées d'un marker par rapport à un autre. 
-Concernant Rvec (rotation vector), elle contient l'angle de rotation d'un marker par rapport à un autre. Une fois les coordonnées en x et y ainsi que l'angle de rotation des marker obtenus, ces données sont ensuite ajoutées à une liste (sous cette forme: liste[x,y,angle marker 1, x,y,angle marker2, x,y,angle marker3, x,y,angle marker4]). La liste est ensuite envoyer sur un port com vers la carte Arduino.
+Concernant Rvec (rotation vector), elle contient l'angle de rotation d'un marker par rapport à un autre. Une fois les coordonnées en x et y ainsi que l'angle de rotation des marker obtenus, ces données sont ensuite ajoutées à une liste (sous cette forme: liste[x,y,angle marker 1, x,y,angle marker2, x,y,angle marker3, x,y,angle marker4]). La liste est ensuite envoyer sur un port com vers la carte Arduino. Le calcul des coordonnées ainsi que des angles prend en compte la matrice de distorsion afin d'avoir des mesures correctes.
+
+Pour finir la liste est envoyer sur un port communication vers la carte arduino.
 
 Ci-dessous un algorigramme simplifiant la compréhension du fonctionnement du programme
 ![Algorigramme Détection de Marker](images/Algo_Aruco_detect.png)
