@@ -29,10 +29,9 @@ Le but pour la version final du robot est d'atteindre l'étape 4: avoir une mach
 
 ## Vidéo
 
-Voici la vidéo illustrant notre projet. 
+Voici la vidéo illustrant notre projet :
 
-![vidéo](docs/images/Projet_PUZZLE_BOT.mp4)
-![LIEN VERS VIDEO](https://youtube.com/shorts/Xj575dPTvmQ?feature=share)
+[LIEN VERS VIDEO](https://youtube.com/shorts/Xj575dPTvmQ?feature=share)
 
 
 ---
