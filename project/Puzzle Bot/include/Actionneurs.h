@@ -44,8 +44,6 @@ void Pompe(bool Pompage, float angle){
     //Allumage de la pompe et accroche de la pièce
 
     // Remise à zéro de la rotation et descente
-    //rotation(Default_angle_rotation,angle_hauteur_bas);
-    //digitalWrite(Actionneur::Vanne, LOW);
     digitalWrite(Actionneur::Pompe, HIGH);
     delay(2000);
     //digitalWrite(Actionneur::Pompe1B, HIGH);
@@ -57,10 +55,6 @@ void Pompe(bool Pompage, float angle){
     rotation(angle,angle_hauteur_bas);
     digitalWrite(Actionneur::Pompe, LOW);
     delay(2000);
-    //digitalWrite(Actionneur::Pompe1B, LOW);
-    //digitalWrite(Actionneur::Vanne, HIGH);
-    //delay(500);
-    //digitalWrite(Actionneur::Vanne, LOW);
     // Remise à zéro de la saisie 
     rotation(Default_angle_rotation,angle_hauteur_haut);
     break;
